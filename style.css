@@ -134,17 +134,17 @@ footer {
 }
 .about-img {
   display: flex;
-  justify-content: center; /* center horizontal */
+  justify-content: center; 
   align-items: center;
-  gap: 20px; /* jarak antar gambar */
+  gap: 20px; 
   margin-top: 20px;
-  flex-wrap: wrap; /* biar responsif kalau layar kecil */
+  flex-wrap: wrap; /
 }
 
 .about-img img {
-  width: 200px;
-  height: 200px;
-  border-radius: 15px; /* rounded */
-  object-fit: cover; /* biar gambar tidak gepeng */
+  width: 150px;
+  height: 150px;
+  border-radius: 15px; 
+  object-fit: cover; /
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
