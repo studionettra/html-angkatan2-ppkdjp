@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Peserta</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+            background-color: #bbbaba;
+            
+        }
+        h2  {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            text-align: center;
+        }
+        .card-table {
+            background-color: #f0f0f0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #000
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;          
+        }
+        .form-group 
+        {
+            margin-bottom: 20px;
+        }
+        label 
+        {
+            display: block;
+            margin-bottom: 3px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"]
+        {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 10px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        select.form-select 
+        {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 10px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            border-color: #00ffbf93;
+        }
+        select:focus {
+            border-color: #00ffbf93;
+        }
+
+        .btn-submit,
+        .btn-reset
+        {
+            width: 100%;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;    
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+            margin-bottom: 10px ;
+            
+        }
+        
+        .btn-submit 
+        {
+            background-color: #0059ff;
+            color: #fff;
+        }   
+        .btn-reset 
+        {
+            background-color: #ff0000fd;
+            color: #fff;
+        }
+
+        .btn-submit:hover 
+        {
+            background-color: #0099ff93;
+        }        
+        .btn-reset:hover 
+        {
+            background-color: #ff6f6fb3;
+        }
+       </style>
+
+</head>
+
+<body>
+    <div class="card-table">
+    <h2>Pendaftaran Siswa</h2>
+    <p>Silakan isi formulir pendaftaran siswa di bawah ini:</p>
+    
+    <form method="post" action="3.html">
+       <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" placeholder="Masukkan Nama Lengkap" required>
+        </div>
+        <div class="form-group">
+            <label for="kelamin">Jenis Kelamin:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Silahkan Pilih</option>
+                <option value="1">Laki-laki</option>    
+                <option value="2">Perempuan</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="agama">Agama:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Silahkan Pilih</option>
+                <option value="1">Islam</option>
+                <option value="2">Kristen</option>
+                <option value="3">Katolik</option>
+                <option value="4">Hindu</option>
+                <option value="5">Budha</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="e-mail">Email:</label>
+            <input type="email" placeholder="Contoh: admin@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="telp">No. Telp:</label>
+            <input type="number" placeholder="08123456xxx" required>
+        </div>
+        <div class="form-group">
+            <label for="nama">Alamat:</label>
+            <input type="text" placeholder="Masukkan Alamat Lengkap" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn-submit">Simpan</button>
+            <button type="reset" class="btn-reset">Batal</button>
+            <!-- <input type="reset" class="btn-reset" value="Batal"> -->
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>

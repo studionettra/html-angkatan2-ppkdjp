@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Peserta</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+            background-color: #bbbaba;
+        }
+
+        .card-table {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #000 width: 80%;
+            max-width: 1045px;
+            margin: 50px auto;
+        }
+
+        h2,
+        p {
+            text-align: center;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            /* menghilangkan boder di table */
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .table thead tr {
+            background-color: #00000093;
+            color: white;
+            text-align: center;
+        }
+
+        .table th,
+        .table td {
+            border-bottom: 1px solid #ddd;
+            padding: 12px 15px;
+        }
+
+        .btn-plus {
+            text-align: right;
+        }
+
+        .btn-tambah {
+            display: inline-block;
+            /*button ngeikutin panjang karakter text*/
+            padding: 10px 20px;
+            background-color: #0066ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-tambah:hover {
+            background-color: #0099ff93;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card-table">
+        <h2>Data Peserta</h2>
+        <p>Berikut adalah data peserta yang telah terdaftar:</p>
+
+        <div class="btn-plus">
+            <a href="2.html" class="btn-tambah"> + Tambah Peserta</a>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Lengkap</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Agama</th>
+                    <th>E-Mail</th>
+                    <th>Nomor Telepon</th>
+                    <th>Alamat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Imam Rama Hermawan</td>
+                    <td>Laki-laki</td>
+                    <td>Islam</td>
+                    <td>imam.rama@example.com</td>
+                    <td>081234567890</td>
+                    <td>Jl. Merdeka No. 123</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ahmad Zaki</td>
+                    <td>Laki-laki</td>
+                    <td>Islam</td>
+                    <td>ahmad.zaki@example.com</td>
+                    <td>081234567891</td>
+                    <td>Jl. Sudirman No. 455</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Siti Nurhaliza</td>
+                    <td>Perempuan</td>
+                    <td>Islam</td>
+                    <td>siti.nurhaliza@example.com</td>
+                    <td>081234567892</td>
+                    <td>Jl. Sudirman No. 456</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>John Doe</td>
+                    <td>Laki-laki</td>
+                    <td>Kristen</td>
+                    <td>john.doe@example.com</td>
+                    <td>081234567893</td>
+                    <td>Jl. Sudirman No. 457</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Jane Smith</td>
+                    <td>Perempuan</td>
+                    <td>Katolik</td>
+                    <td>jane.smith@example.com</td>
+                    <td>081234567894</td>
+                    <td>Jl. Sudirman No. 458</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
