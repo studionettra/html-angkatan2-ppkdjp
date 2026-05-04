@@ -111,14 +111,14 @@
     <h2>Pendaftaran Siswa</h2>
     <p>Silakan isi formulir pendaftaran siswa di bawah ini:</p>
     
-    <form method="post" action="3.html">
+    <form method="post" action="3.html" enctype="multipart/form-data">
        <div class="form-group">
             <label for="nama">Nama Lengkap:</label>
-            <input type="text" placeholder="Masukkan Nama Lengkap" required>
+            <input type="text" name="name" id="nama" placeholder="Masukkan Nama Lengkap" required>
         </div>
         <div class="form-group">
             <label for="kelamin">Jenis Kelamin:</label>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" name="gender">
                 <option selected>Silahkan Pilih</option>
                 <option value="1">Laki-laki</option>    
                 <option value="2">Perempuan</option>
@@ -126,7 +126,7 @@
         </div>
         <div class="form-group">
             <label for="agama">Agama:</label>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" name="agama">
                 <option selected>Silahkan Pilih</option>
                 <option value="1">Islam</option>
                 <option value="2">Kristen</option>
@@ -137,15 +137,15 @@
         </div>
         <div class="form-group">
             <label for="e-mail">Email:</label>
-            <input type="email" placeholder="Contoh: admin@gmail.com" required>
+            <input type="email" name="email" id="e-mail" placeholder="Contoh: admin@gmail.com" required>
         </div>
         <div class="form-group">
             <label for="telp">No. Telp:</label>
-            <input type="number" placeholder="08123456xxx" required>
+            <input type="number" name="phone" id="telp" placeholder="08123456xxx" required>
         </div>
         <div class="form-group">
-            <label for="nama">Alamat:</label>
-            <input type="text" placeholder="Masukkan Alamat Lengkap" required>
+            <label for="alamat">Alamat:</label>
+            <input type="text" name="address" id="alamat" placeholder="Masukkan Alamat Lengkap" required>
         </div>
         <div class="form-group">
             <button type="submit" class="btn-submit">Simpan</button>
