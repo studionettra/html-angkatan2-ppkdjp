@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">  
     <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->    
 </head>
 <body>
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +39,50 @@
         </ul>
     </aside>
 <!-- Main Content -->
-     <main class="p-4">
-        <h3>Dashboard</h3>
-        <p>Selamat Datang, Admin!</p>
+     <main class="col-md-11 p-4">
+        <h3>Profile</h3>
+        <div class="card">
+          <div class="card-header bg-primary">
+            <div class="card-title mb-0 text-primary p-4"></div>
+          </div>
+          <div class="card-body">
+            <div align="center"><img src="https://zhenweiwang.weebly.com/uploads/9/2/7/4/9274702/472046.jpg" alt="" class="rounded-circle mb-2" width="150" height="150">
+            <h5 class="mb-0 fs-4">Imam Rama Hermawan</h5>
+            <p class="text-muted fs-6">Nomor Anggota : 123456789</p>
+            </div>
+            <hr>
+            <div class="mt-4">
+            <div class="text-start">
+              <div class="d-flex">
+                <p class="fw-bold">NIK:</p>
+                <p class="ms-2">1234567890123456</p>
+              </div>
+              <div class="d-flex">
+                <p class="fw-bold">No Hp:</p>
+                <p class="ms-2">08123456789</p>
+              </div>
+              <div class="d-flex">
+                <p class="fw-bold">E-Mail:</p>
+                <p class="ms-2">john.doe@example.com</p>
+              </div>
+              <div class="d-flex">
+                <p class="fw-bold">Alamat:</p>
+                <p class="ms-2">Jl. Contoh Alamat No. 123, Kota Contoh</p>
+              </div>
+              <div class="d-flex">
+                <p class="fw-bold">Tanggal Lahir:</p>
+                <p class="ms-2">1 Januari 1990</p>
+              </div>
+              <div class="d-flex">
+                <p class="fw-bold">Jenis Kelamin:</p>
+                <p class="ms-2">Laki-laki</p>            
+              </div>
+                  <button class="btn btn-primary float-end">
+                <a href="#" class="text-white text-decoration-none"><i class="bi bi-pencil-square"></i> Edit</a>
+              </button>
+            </div>
+           </div>
+        </div>
     </main>
 </div>
 <!-- End Main Content -->

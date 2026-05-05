@@ -4,11 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>Imam Rama Hermawan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="nav">
+        <div class="nav-container">
+            <h2 class="logo">My Portfolio</h2>
+            <button onclick="toggleMenu()">☰
+            </button>
+            <nav class="nav-menu" id="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
     <section class="parallax bg-1">
         <div class="content">
             <h1>Halo, Saya Imam Rama Hermawan</h1>
@@ -67,6 +80,12 @@
     <footer>
         <p>&copy; 2026 Imam Rama Hermawan. All rights reserved.</p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
 </body>
 
 </html>
