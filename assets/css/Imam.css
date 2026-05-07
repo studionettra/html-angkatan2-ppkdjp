@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #0d6efd;
+  --primary-color: #0066ffd5;
   --secondary-color: #6c757d;
   --background-color: #f8f9fa;
   --on-surface-variant: #424754;
@@ -7,7 +7,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--on-surface-variant);
   color: #191c1e;
 }
 
@@ -48,4 +48,29 @@ body {
 
 .soft-shadow{
 box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bg-section {
+  background-color: var(--background-color);
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #c2c6d6;
+  border-radius: 16px;
+  transition: 0.3s;
+  padding: 30px;
+}
+
+.project-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
+}
+
+.badge-tech { 
+  color: var(--primary-color);
+  background-color: rgba(0, 88, 190, 0.2);
+  border: 1px solid rgba(0, 88, 190, 0.1);
+  font-size: 12px;
+  font-weight: 700;
 }
