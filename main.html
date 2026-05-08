@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyobain Tailwind</title>
+    <link rel="stylesheet" href="assets/css/output.css" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <!-- End Font -->
+</head>
+
+<body class="font-inter text-on-surface selection:bg-primary/20">
+
+    <nav
+        class="fixed top-0 left-0 w-full bg-surface border-b border-outline-variant py-4  px-gutter mx-auto flex justify-between items-center z-50">
+        <div class="flex items-center gap-4">
+            <span class="font-bold text-primary">Imam Hermawan</span>
+        </div>
+        <div class="flex items-center gap-7">
+            <a href=""
+                class="font-medium text-primary border-b-2 border-primary pb-1 transition-colors duration-200">Home</a>
+            <a href=""
+                class="font-medium text-on-surface-variant hover:text-primary transition-colors duration-200">Experience</a>
+            <a href=""
+                class="font-medium text-on-surface-variant hover:text-primary transition-colors duration-200">Skills</a>
+            <a href=""
+                class="font-medium text-on-surface-variant hover:text-primary transition-colors duration-200">Contact</a>
+        </div>
+        <div class="d-flex items-center gap-4">
+            <div></div>
+            <button
+                class="bg-primary text-white items-center py-2 px-4 rounded hover:brightness-110 transition-all shadow-sm">Download
+                CV</button>
+        </div>
+    </nav>
+    <main class="pt-24 min-h-screen">
+        <section class="max-w-container-max mx-auto flex flex-col md:flex-row items-center px-gutter py-section-gap">
+            <div class="flex-1 space-y-8">
+                <div class="space-y-4">
+                    <span class="text-primary font-bold tracking-widest uppercase block text-lable-sm">Fullstack
+                        Programmer</span>
+                    <h1 class="text-h1 text-on-surface lg:text-6xl">Imam Hermawan
+                        <span class="text-primary/80 font-bold">Fulltstack Programmer</span>
+                    </h1>
+                    <p
+                        class="text-body-lg text-on-surface-variant max-w-xl border-l-4 border-primary/80 pl-6 leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam natus reprehenderit accusamus
+                        ea. In doloribus aliquid eos voluptates fugit a amet eligendi, praesentium officiis hic odit ex
+                        incidunt. Non, incidunt.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <button
+                            class="bg-primary text-on-primary font-semibold rounded-lg px-8 py-4 hover:brightness-110 active:scale-95 transition-all shadow items-center gap-2">
+                            <spand>Download CV</spand>
+                            <spand class="material-symbols-outlined text-[20px]">download</spand>
+                        </button>
+                        <button
+                            class=" border border-primary text-primary font-semibold rounded-lg px-8 py-4 hover:bg-primary active:scale-95 transition-all shadow">
+                            View Project
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 w-full relative">
+                <div class="aspect-square w-full max-w-lg mx-auto relative group">
+                    <div
+                        class="absolute -top-4 -right-4 bg-surface-container-lowest p-4 border border-outline-variant rounded-xl z-20 hidden lg:block soft-shadow">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
