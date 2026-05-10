@@ -16,11 +16,10 @@
 </head>
 
 <body>
-    <div class="wraper">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-custom py-3">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top py-3">
             <div class="container">
-                <a class="navbar-brand text-primary text-uppercase fw-bold" href="#">Dev Portofolio</a>
+                <a class="navbar-brand text-primary text-uppercase fw-bold" href="index.html">Dev Portofolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -29,19 +28,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
                         <li class="nav-item">
-                            <a class="nav-link-custom px-2" href="#">Home</a>
+                            <a class="nav-link-custom px-2" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link-custom px-2" href="#">Experience</a>
+                            <a class="nav-link-custom px-2" href="experience.html">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link-custom px-2" href="#">Project</a>
+                            <a class="nav-link-custom px-2" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link-custom px-2" href="#">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link-custom px-2 active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link-custom px-2 active" aria-current="page" href="contact.html">Contacts</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -51,17 +50,17 @@
             </div>
         </nav>
         <!-- content -->
-        <main class="pt-2" style="padding-top: 100px;">
+        <main class="pt-5" style="padding-top: 100px;">
             <section class="container py-5">
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div>
-                            <span class="text-primary fw-medium opacity-75 text-uppercase d-block mb-1 fs-6">
+                            <span class="text-primary fw-medium opacity-75 text-uppercase d-block mb-1 mt-5 fs-6">
                                 System.Init_Communication()
                             </span>
                             <h1 class="fw-bold">Get in touch.</h1>
                         </div>
-                        <div class="text-secondary mt-4">
+                        <div class="text-secondary mt-2">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus temporibus odio
                                 quas aliquam, laborum debitis molestias qui dolor consectetur quis velit beatae in,
                                 ipsam tempore expedita magnam accusamus odit sed!</p>
@@ -69,7 +68,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container py-3">
+            <section class="container py-2">
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="project-card d-flex justify-content-between flex-column soft-shadow"
@@ -145,17 +144,46 @@
 
             </section> -->
             <section class="container py-5">
+                <div class="mapouter">
+                    <div class="gmap_canvas soft-shadow"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=1080&amp;height=480&amp;hl=en&amp;q=hang lekir vii 10&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://embed-googlemap.com">Kantor Imam Hermawan</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 480px;                        
+                            ;
+                        }
 
-                <div class="map-wrapper position-relative overflow-hidden rounded-4">
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 480px;
+                            border-radius: 10px;
+                        }
 
-                    <img src="https://i.icanvas.com/ic3/hero-image/urban-maps.jpg?fit=crop&width=1440&height=810"
-                        class="w-100 h-100 object-fit-cover" alt="Map">
+                        .gmap_iframe {
+                            height: 480px !important;
+                        }
+                    </style>
+                </div>
+
+                <!-- <div class="map-wrapper position-relative overflow-hidden rounded-4">
 
 
-                    <div class="overlay"></div>
+
+                    
+                    <!-- <img src="https://i.icanvas.com/ic3/hero-image/urban-maps.jpg?fit=crop&width=1440&height=810"
+                        class="w-100 h-100 object-fit-cover" alt="Map"> -->
 
 
-                    <div class="location-popup position-absolute top-50 start-50 translate-middle">
+                <!-- <div class="overlay"></div> -->
+
+                <!-- <div class="location-popup position-absolute top-50 start-50 translate-middle">
 
                         <div class="bg-white rounded-pill px-4 py-2 shadow d-flex align-items-center gap-2">
 
@@ -165,10 +193,10 @@
                                 Base_Location: Hang Lekir, Jakarta Selatan
                             </span>
                         </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+                    </div> -->
+    </div>
+    </section>
+    </main>
     </div>
     <footer class="bg-white border-top py-5">
         <div class="container d-flex justify-content-between align-items-center gap-4">
