@@ -104,6 +104,5 @@ body {
 }
 
 .bg-card {
-  background-color: #424754;
-  opacity: 50;
+  background-color: rgba(199, 199, 199, 0.5);
 }
